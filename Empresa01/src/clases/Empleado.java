@@ -11,8 +11,23 @@ public class Empleado {
 	protected int antiguedad;
 	
 	
-	public Empleado() {
+	
+	/** Constructor sin parámetros, a secas.
+	
+	// public Empleado() {
+	//	}
+	
+	
+	/** Constructor sin parámetros, pero con inicialiazación de atributos
+	 */
+	
 		
+	public Empleado() {
+		this.nombre="";
+		this.apellido="";
+		this.edad=0;
+		this.antiguedad=0;
+			
 	}
 
 
